@@ -1,0 +1,358 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TouchPicActivity" >
+
+    <TextView
+        android:id="@+id/Platz1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_alignParentLeft="true"
+        android:text="1. " 
+        android:textSize="30sp">
+           </TextView>
+    
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Platz1"
+        android:src="@drawable/platz1" />
+
+        <TextView
+        android:id="@+id/Platz1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_toRightOf="@+id/imageView1"
+        android:textSize="30sp">
+        </TextView>
+    
+<TextView
+        android:id="@+id/Platz2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Platz1"
+        android:text="2. " 
+        android:textSize="30sp">
+
+            </TextView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Platz2"
+        android:layout_below="@+id/Platz1"
+        android:src="@drawable/platz2" />
+
+        <TextView
+        android:id="@+id/Platz2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+           android:layout_below="@+id/Platz1"     
+        android:layout_toRightOf="@+id/imageView2"
+        android:textSize="30sp">
+        </TextView>
+
+        <TextView
+        android:id="@+id/Platz3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Platz2"
+        android:text="3. "
+        android:textSize="30sp" >
+
+            </TextView>
+    
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Platz3"
+        android:layout_below="@+id/Platz2"
+        android:src="@drawable/platz3" />
+
+        <TextView
+        android:id="@+id/Platz3_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+           android:layout_below="@+id/Platz2"     
+        android:layout_toRightOf="@+id/imageView3"
+        android:textSize="30sp">
+        </TextView>
+        
+<TextView
+        android:id="@+id/Platz4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Platz3"
+        android:text="4. " 
+        android:textSize="30sp">
+
+            </TextView>
+    
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Platz4"
+        android:layout_below="@+id/Platz3"
+        android:src="@drawable/platz4" />
+
+        <TextView
+        android:id="@+id/Platz4_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+           android:layout_below="@+id/Platz3"     
+        android:layout_toRightOf="@+id/imageView4"
+        android:textSize="30sp">
+        </TextView>
+
+        <TextView
+        android:id="@+id/Platz5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Platz4"
+        android:text="5. "
+        android:textSize="30sp" >
+
+            </TextView>
+    
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Platz5"
+        android:layout_below="@+id/Platz4"
+        android:src="@drawable/platz5" />
+
+        <TextView
+        android:id="@+id/Platz5_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+           android:layout_below="@+id/Platz4"     
+        android:layout_toRightOf="@+id/imageView5"
+        android:textSize="30sp">
+        </TextView>
+
+               <TextView
+        android:id="@+id/Platz6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Platz5"
+        android:text="6. "
+        android:textSize="30sp" >
+
+            </TextView>
+    
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Platz6"
+        android:layout_below="@+id/Platz5"
+        android:src="@drawable/platz6" />
+
+        <TextView
+        android:id="@+id/Platz6_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+           android:layout_below="@+id/Platz5"     
+        android:layout_toRightOf="@+id/imageView6"
+        android:textSize="30sp">
+        </TextView>
+        
+         <TextView
+        android:id="@+id/Platz7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Platz6"
+        android:text="7. "
+        android:textSize="30sp" >
+
+            </TextView>
+    
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Platz7"
+        android:layout_below="@+id/Platz6"
+        android:src="@drawable/platz7" />
+
+        <TextView
+        android:id="@+id/Platz7_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+           android:layout_below="@+id/Platz6"     
+        android:layout_toRightOf="@+id/imageView7"
+        android:textSize="30sp">
+        </TextView>
+
+        
+          <TextView
+        android:id="@+id/Platz8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Platz7"
+        android:text="8. "
+        android:textSize="30sp" >
+
+            </TextView>
+    
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Platz8"
+        android:layout_below="@+id/Platz7"
+        android:src="@drawable/platz8" />
+
+        <TextView
+        android:id="@+id/Platz8_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+           android:layout_below="@+id/Platz7"     
+        android:layout_toRightOf="@+id/imageView8"
+        android:textSize="30sp">
+        </TextView>
+
+          <TextView
+        android:id="@+id/Platz9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Platz8"
+        android:text="9. "
+        android:textSize="30sp" >
+
+            </TextView>
+    
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Platz9"
+        android:layout_below="@+id/Platz8"
+        android:src="@drawable/platz9" />
+
+        <TextView
+        android:id="@+id/Platz9_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+           android:layout_below="@+id/Platz8"     
+        android:layout_toRightOf="@+id/imageView9"
+        android:textSize="30sp">
+        </TextView>
+
+            <TextView
+        android:id="@+id/Platz10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Platz9"
+        android:text="10."
+        android:textSize="30sp" >
+
+            </TextView>
+    
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Platz10"
+        android:layout_below="@+id/Platz9"
+        android:maxWidth="42dp"  
+  		android:maxHeight="42dp"
+        android:src="@drawable/platz10" />
+
+        <TextView
+        android:id="@+id/Platz10_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+           android:layout_below="@+id/Platz9"     
+        android:layout_toRightOf="@+id/imageView10"
+        android:textSize="30sp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/bild"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:onClick="BildKlick" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="Foto"
+            android:onClick="Foto" />
+                <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button1"
+            android:layout_centerHorizontal="true"
+            android:text="Spiel"
+            android:onClick="Spiel" />
+                
+                 <TextView
+        android:id="@+id/anzahlspielertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"      
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:text="Anzahl Spieler: " 
+        android:textSize="30sp">
+           </TextView>
+        <TextView
+        android:id="@+id/anzahlspieler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/button2"     
+        android:layout_toRightOf="@+id/anzahlspielertext"
+        android:textSize="30sp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/pokal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Platz3_text"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/pokal" />
+        <TextView
+        android:id="@+id/pokal_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  
+        android:layout_below="@+id/pokal"        
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp">
+        </TextView>
+
+            <ImageView
+                android:id="@+id/siegerbild"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pokal_text"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/siegerbild" />
+
+</RelativeLayout>
